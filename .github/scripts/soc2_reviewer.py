@@ -47,8 +47,8 @@ for filename in os.listdir(controls_dir):
         results.append(review)
 
 # Save results
-os.makedirs("reports", exist_ok=True)
-with open("reports/soc2_review_results.json", "w") as out:
+os.makedirs("Reports", exist_ok=True)
+with open("Reports/soc2_review_results.json", "w") as out:
     json.dump(results, out, indent=2)
 
-print("SOC 2 review complete. Results saved to reports/soc2_review_results.json")
+print("SOC 2 review complete. Results saved to Reports/soc2_review_results.json")

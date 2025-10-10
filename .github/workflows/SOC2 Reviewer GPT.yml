@@ -3,8 +3,8 @@ name: SOC2 Reviewer GPT
 on:
   pull_request:
     paths:
-      - "controls/**"
-      - "evidence/**"
+      - "Controls/**"
+      - "Evidence/**"
   workflow_dispatch:
 
 jobs:

@@ -6,7 +6,7 @@ from openai import OpenAI
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 # Load controls from repo (you can modify this to read YAML, Markdown, etc.)
-controls_dir = "controls"
+controls_dir = "Controls"
 results = []
 
 prompt = """
